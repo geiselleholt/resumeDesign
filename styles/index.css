@@ -1,5 +1,4 @@
 #mainContainer {
-  display: flex;
   background-color: black;
   color: white;
   margin: auto;
@@ -22,10 +21,6 @@ ul {
   list-style-type: none;
 }
 
-/* #box3 {
-    width: 100%;
-  } */
-
 .box {
   border: 5rem white;
 }
@@ -35,9 +30,14 @@ img {
   object-fit: contain;
 }
 
+#lowerSections {
+  display: flex;
+}
+
 #section2 {
-  border: 2rem white;
+  width: 70%;
 }
 
 #section3 {
+  width: 30%;
 }
